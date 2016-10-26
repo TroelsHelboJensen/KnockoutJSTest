@@ -1,0 +1,8 @@
+3 important concepts:
+
+1: Observable and dependency-tracking. DOM are connected to ViewModel via 'data-bind'. DOM and VievModel exchange data through Observables.
+
+2: Declartive bindings between UI and VievModel by 'data-bind'
+
+3: Templating to create re-usable components
+

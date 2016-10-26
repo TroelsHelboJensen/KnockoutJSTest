@@ -1,0 +1,20 @@
+View:
+- This is only the UI created by html and css
+
+ViewModel:
+- Is a Javascript Object with properties and functions to represent data
+- Connected with the View by data-bind concepts used in html.
+- kKnockoutJS automates data refresh through use of Observable
+- Direct connection between display and underlying data
+- Create your own bindings for specific behavior
+
+Model:
+- Connected with the ViewModel
+- domain data on server, manipulated by request from ViewModel
+- Data stored in persistent storage (Database, cookies etc..)
+
+Outside scope:
+- Most of the time data is saved and loaded via an Ajax call
+
+Architecture of MVVM:
+https://www.tutorialspoint.com/knockoutjs/knockoutjs_mvvm_framework.htm
